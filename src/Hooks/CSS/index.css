@@ -7,7 +7,7 @@
 }
 
 .container {
-  margin: 150px;
+  margin-bottom: 150px;
   padding: 55px;
   border: 1px solid blueviolet;
   border-radius: 1rem;
@@ -32,4 +32,8 @@ button:hover {
   background-color: blueviolet;
   color: white;
   cursor: pointer;
+}
+
+hr {
+  margin-bottom: 150px;
 }

@@ -17,6 +17,7 @@ const UseReducer = () => {
 
   return (
     <>
+      <h1 style={{ textAlign: "center", color: "blueviolet" }}>UseState</h1>
       <div className="main_container">
         <div className='container'>
           <p className="data">

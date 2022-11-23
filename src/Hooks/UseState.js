@@ -7,6 +7,7 @@ const UseState = () => {
 
   return (
     <>
+      <h1 style={{ textAlign: "center", color: "blueviolet" }}>UseState</h1>
       <div className="main_container">
         <div className='container'>
           <p className="data">
@@ -16,6 +17,7 @@ const UseState = () => {
           <button onClick={() => myNum > 0 ? setMyNum(myNum - 1) : setMyNum(myNum)}>-</button>
         </div>
       </div>
+      <hr />
     </>
   )
 }

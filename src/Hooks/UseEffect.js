@@ -11,8 +11,8 @@ const UseEffect = () => {
 
   return (
     <>
+      <h1 style={{ textAlign: "center", color: "blueviolet" }}>UseState</h1>
       <div className="main_container">
-
         <div className='container'>
           <small style={{ paddingLeft: "27px", color: "gray" }}>{`(see the title)`}</small>
           <p className="data">
@@ -24,6 +24,7 @@ const UseEffect = () => {
         </div>
 
       </div>
+      <hr />
     </>
   )
 }
