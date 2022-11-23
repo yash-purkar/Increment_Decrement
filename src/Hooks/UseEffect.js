@@ -12,7 +12,9 @@ const UseEffect = () => {
   return (
     <>
       <div className="main_container">
+
         <div className='container'>
+          <small style={{ paddingLeft: "27px", color: "gray" }}>{`(see the title)`}</small>
           <p className="data">
             {myNum}
 
