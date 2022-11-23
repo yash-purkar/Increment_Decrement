@@ -1,8 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./CSS/index.css"
 
-const UseState = () => {
+const UseEffect = () => {
   const [myNum, setMyNum] = useState(0);
+
+  useEffect(() => {
+    document.title = `Counter(${myNum})`;
+  })
 
 
   return (
@@ -11,13 +15,15 @@ const UseState = () => {
         <div className='container'>
           <p className="data">
             {myNum}
+
           </p>
           <button onClick={() => setMyNum(myNum + 1)}>+</button>
-          <button onClick={() => myNum > 0 ? setMyNum(myNum - 1) : setMyNum(myNum)}>-</button>
+
         </div>
+
       </div>
     </>
   )
 }
 
-export default UseState
+export default UseEffect;
